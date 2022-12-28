@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name=" Slide_7">
+
+<test name="Chrome Basic from Slide_6">
+<parameter name="browser" value="Chrome"></parameter>
+<parameter name="link" value="https:www.amazon.com">  </parameter>
+<classes>
+<class name ="Slide_7.Assert"></class>
+</classes>
+</test>
+
+
+<test name="EdgeBasic from Slide_6">
+<parameter name="browser" value="Edge"></parameter>
+<parameter name="link" value="https:www.amazon.com">  </parameter>
+<classes>
+<class name ="Slide_7.Assert"></class>
+</classes>
+</test>
+
+</suite>

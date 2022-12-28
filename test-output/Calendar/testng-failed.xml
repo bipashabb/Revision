@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Calendar]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Task1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="link" value="https:www.hyrtutorials.com"/>
+    <classes>
+      <class name="Slide_7.Calendar_task">
+        <methods>
+          <include name="Ibrowser"/>
+          <include name="calendar_page"/>
+          <include name="beforeMethod"/>
+          <include name="Calendar_Homepage"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Slide_7.Calendar_task -->
+    </classes>
+  </test> <!-- Task1(failed) -->
+</suite> <!-- Failed suite [Calendar] -->

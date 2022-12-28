@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Alerts]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Alerts tasks chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="link" value="https://demoqa.com/alerts"/>
+    <classes>
+      <class name="Slide_7.Alert_tasks">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Ibrowser"/>
+          <include name="afterClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Slide_7.Alert_tasks -->
+    </classes>
+  </test> <!-- Alerts tasks chrome(failed) -->
+  <test thread-count="5" name="Alerts tasks edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="link" value="https://demoqa.com/alerts"/>
+    <classes>
+      <class name="Slide_7.Alert_tasks">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Ibrowser"/>
+          <include name="afterClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Slide_7.Alert_tasks -->
+    </classes>
+  </test> <!-- Alerts tasks edge(failed) -->
+</suite> <!-- Failed suite [Alerts] -->
