@@ -1,9 +1,11 @@
 package Slide_7TasksPOM;
 
+import java.awt.RenderingHints.Key;
 import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -41,6 +43,15 @@ public class Amazon_task_Homepage extends Tasks_Utilities {
 		flash(membershipbutton, driver);
 		ScreenshotsInside();
 	}	
+	public void sell_click() {
+		Actions act= new Actions(driver);
+		act.keyDown(Keys.CONTROL).build().perform();
+		sellbutton.click();
+		act.keyUp(Keys.CONTROL).build().perform();
+		
+		
+
+	}
 	
 		
 		
